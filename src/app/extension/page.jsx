@@ -1,4 +1,4 @@
-import ExtensionPage from "@/components/page/Extension";
+import ExtensionPage from "@/page/Extension";
 
 const Page = () => {
 	return <ExtensionPage />;
