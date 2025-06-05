@@ -66,16 +66,16 @@ export default function Hero() {
 								size="lg"
 								className="bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg"
 							>
-								Bắt đầu ngay
+								Tải Extension Ngay
 							</Button>
-							<Button
+							{/* <Button
 								variant="outline"
 								size="lg"
 								className="border-2 border-white text-white hover:bg-white hover:text-amber-900 font-semibold px-8 py-4 rounded-full transition-all duration-300 group"
 							>
 								<Play className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
 								Xem demo
-							</Button>
+							</Button> */}
 						</div>
 
 						<div className="grid grid-cols-3 gap-8 pt-8">

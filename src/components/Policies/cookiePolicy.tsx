@@ -155,7 +155,6 @@ export default function CookiePolicy() {
 					))}
 				</div>
 
-				{/* Cookie Management */}
 				<Card
 					className={`bg-gradient-to-r from-amber-50 to-orange-50 border-0 transition-all duration-1000 delay-800 ${
 						isVisible

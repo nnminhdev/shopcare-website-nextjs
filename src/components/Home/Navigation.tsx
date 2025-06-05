@@ -70,11 +70,7 @@ export default function Navigation() {
 						<Button
 							variant="outline"
 							size="sm"
-							className={`transition-all ${
-								isScrolled
-									? "border-amber-900 text-amber-900 hover:bg-amber-900 hover:text-white"
-									: "border-white text-white hover:bg-white hover:text-amber-900"
-							}`}
+							className={`transition-all border-amber-900 text-amber-900 hover:bg-amber-900 hover:text-white`}
 						>
 							<Phone className="w-4 h-4 mr-2" />
 							0909.551.661

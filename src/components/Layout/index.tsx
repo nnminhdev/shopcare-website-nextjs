@@ -5,9 +5,9 @@ import Footer from "./Footer";
 const DefaultLayout = ({ children }: { children: ReactNode }) => {
 	return (
 		<div>
-			<Navigation />
+			{/* <Navigation /> */}
 			{children}
-			<Footer />
+			{/* <Footer /> */}
 		</div>
 	);
 };

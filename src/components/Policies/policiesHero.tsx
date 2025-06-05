@@ -69,8 +69,10 @@ export default function PoliciesHero() {
 										transitionDelay: `${index * 150}ms`,
 									}}
 								>
-									<div className="w-12 h-12 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-										<item.icon className="w-6 h-6 text-white" />
+									<div className="flex justify-center">
+										<div className="w-12 h-12 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+											<item.icon className="w-6 h-6 text-white" />
+										</div>
 									</div>
 									<h3 className="text-white font-semibold text-lg">
 										{item.title}

@@ -44,9 +44,9 @@ export default function ContactInfo() {
 		{
 			icon: Mail,
 			title: "Email",
-			content: "privacy@shopcare.vn",
-			description: "Gửi email cho bộ phận bảo mật",
-			action: "mailto:privacy@shopcare.vn",
+			content: "shopcarevn2025@gmail.com",
+			description: "Gửi email cho chúng tôi",
+			action: "mailto:shopcarevn2025@gmail.com",
 			color: "from-purple-500 to-pink-500",
 		},
 		{
@@ -54,7 +54,7 @@ export default function ContactInfo() {
 			title: "Website",
 			content: "shopcare.vn",
 			description: "Truy cập website chính thức",
-			action: "https://shopcare.vn",
+			action: "https://www.shopcare.vn",
 			color: "from-amber-500 to-orange-500",
 		},
 	];
@@ -119,7 +119,6 @@ export default function ContactInfo() {
 					))}
 				</div>
 
-				{/* Data Protection Officer */}
 				<Card
 					className={`bg-gradient-to-r from-amber-50 to-orange-50 border-0 transition-all duration-1000 delay-600 ${
 						isVisible
